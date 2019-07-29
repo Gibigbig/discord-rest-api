@@ -1,7 +1,7 @@
-# discord-rest-api
+# Discord-rest-api
 Simple functions for interacting with discords rest api. Works great with express apps so can easily manage your users via any custom dashboard.
 
-# how to use.
+# How to use.
 
 1) edit config accordingly.
 2) install axios
