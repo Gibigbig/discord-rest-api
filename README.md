@@ -9,7 +9,7 @@ Simple functions for interacting with discords rest api. Works great with expres
 usage:
 
 ```
-functions = require('../functions'),
+functions = require('./functions'),
 await functions.removeRole(req.user.id, site.guildid, site.premiumRole);
 res.send('done')
 ```
