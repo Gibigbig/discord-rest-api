@@ -10,7 +10,7 @@ usage:
 
 ```
 functions = require('./functions'),
-await functions.removeRole(req.user.id, site.guildid, site.premiumRole);
+await functions.removeRole(discord_user_id, site.guildid, site.premiumRole);
 res.send('done')
 ```
 
