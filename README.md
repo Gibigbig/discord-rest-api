@@ -18,3 +18,7 @@ await functions.removeRole(discord_user_id, site.guildid, site.premiumRole);
 # Remember
 
 these functions are promised based. please use async/await accordingly
+
+# Edit
+
+I should probably add that there is no queue system involved here. If the request drops or you hit a rate limit, the request will be lost forever. Youre better off using this as a base wrapped around a robust Queue system like Bull. 
